@@ -12,7 +12,6 @@ body{
 	font-style: normal;
 	font-variant: normal;
 	text-transform: none;
-	
 	height: 100%;
 }
 
@@ -50,6 +49,8 @@ ul {
 
 li {
 	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 li:hover{
@@ -58,20 +59,22 @@ li:hover{
 
 #main-content{
 	max-width: 960px;
-
 }
 
 #footer{
-	position: relative;
+	position: static;
 	bottom: 0px;
 	box-shadow:2px 2px 15px #828282;
 	border-radius: 5px;
 	background-color: white;
+	margin-top: 10px;
 }
 
 #content-wrapper{
 	background: white;
 	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow:2px 2px 15px #828282;
 }
 
 
@@ -86,4 +89,31 @@ li:hover{
 	box-shadow:2px 1px 1px #828282;
 	border-radius: 1px;
 	color: white;
+}
+
+.port-text{
+	position: absolute;
+	text-align: center;
+	font-weight: bold;
+	line-height: 20px;
+	bottom: 30px;
+	width: 100%;
+	color: white;
+	max-width: 200px;	max-height: 60px;
+	height: 30%;
+	background-color:rgba(52,123,152,0.5);
+}
+
+.port-text:hover{
+	background-color:rgba(52,123,153,1.0);
+}
+
+.image{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	box-shadow:2px 2px 5px #828282;
+	width: 200px;
+	height: 200px;
+	position: relative;
+
 }

@@ -61,14 +61,6 @@ li:hover{
 	max-width: 960px;
 }
 
-#footer{
-	position: static;
-	bottom: 0px;
-	box-shadow:2px 2px 15px #828282;
-	border-radius: 5px;
-	background-color: white;
-	margin-top: 10px;
-}
 
 #content-wrapper{
 	background: white;
@@ -87,7 +79,7 @@ li:hover{
 #name-top{
 	background-color: #347B98;
 	box-shadow:2px 1px 1px #828282;
-	border-radius: 1px;
+	border-radius: 5px;
 	color: white;
 }
 
@@ -116,4 +108,43 @@ li:hover{
 	height: 200px;
 	position: relative;
 
+}
+
+#port-content{
+	margin: auto;
+	left: 5%;
+}
+
+#name{
+	margin-left: 17%;
+}
+
+#main-content-contact{
+	max-width: 960px;
+	margin-top: 20px;
+}
+
+#contact-content{
+	background-color: white;
+	box-shadow:2px 2px 5px #828282;
+	border-radius: 5px;
+}
+
+.form{
+	width: 300px;
+}
+
+#social-media-images{
+	max-height: 50px;
+	max-width: 50px;
+	height: 50px;
+	width: 50px;
+}
+
+.sm-image{
+	width: 100%;
+	height: 100%;
+	max-width: 75px;
+	max-height: 75px;
+	float: left;
 }
